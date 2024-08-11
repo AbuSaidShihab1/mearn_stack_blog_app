@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Sora", system-ui;
+}
+.home{
+  width: 100%;
+  height: 88vh;
+  background-color: black;
+  padding: 20px 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box{
+  width: 50%;
+  text-align: center;
+}
+.box h1{
+  color: #0fb9b1;
+  font-size: 60px;
+  margin-bottom: 10px;
+}
+.box p{
+  font-size: 16px;
+  line-height: 25px;
+  margin-bottom: 20px;
+  color: white;
+}
+.box button{
+  padding: 15px 35px;
+  border: none;
+  border-radius: 5px;
+  background-color: #0fb9b1;
+  font-size: 16px;
+  color: white;
+  cursor: pointer;
+}
+
+/* --------------------blog----------------- */
+.blog{
+  width: 100%;
+  min-height: 88vh;
+  background-color: black;
+  padding: 20px 150px;
+}
+.blog h1{
+  color: white;
+  font-size: 30px;
+  margin-bottom: 20px;
+
+}
+.main{
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.blog_box{
+  width: 30%;
+  height: auto;
+  overflow: hidden;
+  border-radius: 5px;
+  background-color: white;
+  border: 1px solid #EEEEEE;
+
+}
+.image img{
+  width: 100%;
+  height: 280px;
+}
+.text{
+  padding: 10px;
+}
+.text h1{
+  font-size: 25px;
+  font-weight: 500;
+  margin-bottom: 5px;
+  color: black;
+}
+.text p{
+  font-size: 16px;
+  line-height: 25px;
+  color: #222;
+  margin-bottom: 15px;
+}
+.btn{
+  display: flex;
+  gap: 20px;
+}
+.btn button{
+  padding: 10px 25px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  color: white;
+  border-radius: 5px;
+}
+.btn button:first-child{
+  background-color: #20bf6b;
+}
+.btn button:last-child{
+  background-color: #eb3b5a;
+}
+/* ------------------post------------ */
+.post{
+  width: 100%;
+  height: 88vh;
+  background-color: black;
+  padding: 20px 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.post-main{
+  width: 40%;
+  height: auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+}
+.post-main h1{
+  font-size: 25px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+form input{
+  width: 100%;
+  height: 50px;
+  padding: 5px 10px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  background: none;
+  border:1px solid #a5b1c2;
+  border-radius: 5px;
+}
+form textarea{
+  width: 100%;
+  height: 200px;
+  padding: 5px 10px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  background: none;
+  border:1px solid #a5b1c2;
+  border-radius: 5px;
+}
+form button{
+  padding: 15px 40px;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+  background-color: #2d98da;
+  color: white;
+  cursor: pointer;
+}
+form button a{
+  color: white;
+}
